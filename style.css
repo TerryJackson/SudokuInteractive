@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+input {
+    width: 75px;
+    height: 75px;
+    font-size: 40px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#title {
+    margin-left: 280px;
+    margin-top: 30px;
+}
+
+#main {
+    width: 1200px;
+    height: 800px;
+    /*border: 1px solid yellow;*/
+    float:clear;
+
+}
+
+#containerSudoku {
+    width: 750px;
+    height: 750px;
+    /*border: 1px solid red;*/
+    margin: 30px;
+    float: left;
+}
+
+#containerUI {
+    width: 350px;
+    height: 750px;
+    /*border: 1px solid blue;*/
+    margin: 30px 5px;
+    float: left;
+    font-size: 24px;
+}
+
+.block {
+    width: 231px;
+    height: 231px;
+    border: 2px solid black;
+    float: left;
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    float:left;
+}
+
+.emptycell {
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    float:left;
+    font-size: 24;
+    text-align: : left;
+}
+
+.candidate {
+    width: 15px;
+    height: 15px;
+    /*background: red;*/
+    border: 1px solid black;
+    font-size: 15px;
+    text-align: center;
+    float: left;
+}
+
+.uniqueCandidate {
+    width: 15px;
+    height: 15px;
+    background: red;
+    border: 1px solid black;
+    font-size: 15px;
+    text-align: center;
+    float: left;
+}
+
+.eliminatedCandidate {
+    width: 15px;
+    height: 15px;
+    background: purple;
+    border: 1px solid black;
+    font-size: 15px;
+    text-align: center;
+    float: left;
+}
+
+.value {
+    width: 40px;
+    height: 40px;
+    /*background: blue;*/
+    /*border: 1px solid black;*/
+    font-size: 40px;
+    padding: 15px;
+    text-align: center;
+}
